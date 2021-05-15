@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:layout_marginHorizontal="5dp"
+            />
+
+        <TextView
+            android:id="@+id/txtPaterno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="5dp"
+            android:text="paterno" />
+
+        <TextView
+            android:id="@+id/txtMaterno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="10dp"
+            android:text="materno" />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+    <TextView
+        android:id="@+id/ci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ci:"
+        />
+    <TextView
+        android:id="@+id/txtnom_paq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre de paquete:"/>
+
+    <TextView
+        android:id="@+id/txtCodp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Codigo Paquete:"/>
+
+    <ImageView
+        android:id="@+id/imgMujer"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginHorizontal="100dp"
+        app:srcCompat="@drawable/mujer" />
+
+
+</LinearLayout>
